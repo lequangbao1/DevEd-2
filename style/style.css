@@ -275,10 +275,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
-  z-index: 2;
 }
 
 footer h1 {
@@ -369,6 +365,13 @@ footer ul {
   footer ul {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .showcase {
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
   }
 }
 /*# sourceMappingURL=style.css.map */

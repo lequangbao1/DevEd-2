@@ -1,0 +1,25 @@
+footer {
+    min-height: 10vh;
+    background: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+
+    h1 {
+        flex: 4;
+    }
+    ul {
+        
+        flex: 1;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        
+    }
+}

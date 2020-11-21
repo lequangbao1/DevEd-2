@@ -120,7 +120,7 @@ nav ul #order {
   display: -ms-grid;
   display: grid;
   min-height: 90vh;
-  -ms-grid-columns: 10% (minmax(20rem, 1fr))[3] 10%;
+  -ms-grid-columns: 10% repeat(3, minmax(20rem, 1fr)) 10%;
       grid-template-columns: 10% repeat(3, minmax(20rem, 1fr)) 10%;
   -ms-grid-rows: 1fr 2fr 1fr;
       grid-template-rows: 1fr 2fr 1fr;
